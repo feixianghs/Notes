@@ -70,7 +70,9 @@
 
 ##### 1.1内部方式
 
+> ```javascript
 > <script type="text/javascript">js代码</script>
+> ```
 >
 > 写法：可以写在body中，也可以写在head中
 >
@@ -105,7 +107,9 @@
 
 ##### 1.2引用外部js文件
 
+> ```javascript
 > <script type="text/javascript" src="外部js文件的相对路径"></script>
+> ```
 >
 > 代码演示：
 >
@@ -179,15 +183,15 @@
 
 #### 2.命名规范
 
-> a.由数字，字母，下划线和美元符[$]
+> **a.由数字，字母，下划线和美元符[$]**
 >
-> b.不能以数字和空格开头，并且不能包含空格
+> **b.不能以数字和空格开头，并且不能包含空格**
 >
-> c.不能使用关键字
+> **c.不能使用关键字**
 >
-> d.区分大小写
+> **d.区分大小写**
 >
-> e.遵循驼峰命名法
+> **e.遵循驼峰命名法**
 
 #### 3.js的数据类型
 
@@ -199,7 +203,7 @@
 >
 > ​	特殊数据类型：
 >
-> ​		Null：表示一个变量指向空，使用typeof操作符检测null返回object
+> ​		Null：表示一个变量指向空，使用**typeof   操作符检测null返回object**
 >
 > ​		Undefined：定义一个变量，但是这个变量没有被赋予初始值
 >
@@ -389,15 +393,15 @@
 >
 > c.如果字符串比较，比较的是字符编码值【字典】
 >
-> d.number和字符串进行比较，则会尝试将其中的字符串转换为number，然后才进行比较
+> **d.number和字符串进行比较，则会尝试将其中的字符串转换为number，然后才进行比较**
 
 ##### 4.3逻辑运算符
 
-> Python：and   or not
+> Python：and   or   not
 >
-> js:&&   ||   !
+> **js:&&   ||   !**
 >
-> 注意：使用规律和Python中完全相同，同样会出现短路原则
+> **注意：使用规律和Python中完全相同，同样会出现短路原则**
 
 ##### 4.4赋值运算符
 
@@ -478,7 +482,6 @@
 > 		<script>
 > 			//1.只有一个除法运算：/
 > 			
-> 			
 > 			//2.js中的字符串可以进行相加或者相减的运算
 > 			//+：拼接
 > 			//-：实际的数学运算【前提条件：字符串可以转换为number】
@@ -534,11 +537,13 @@
 >
 > js:
 >
-> ​	分支：if,if-else,if-else if -else,switch
+> ```js
+> 	分支：if,if-else,if-else if -else,switch
+> 	循环：简单for，for-in,while,do-while
+> ```
 >
-> ​	循环：简单for，for-in,while,do-while
-
-##### 5.1if语句
+> 5.1if语句
+>
 
 > 语法：
 >
@@ -656,7 +661,7 @@
 
 ##### 5.2switch语句
 
-> 作用：类似于if语句中的多分支，实现多选一的操作
+> **作用：类似于if语句中的多分支，实现多选一的操作**
 >
 > 语法：
 >
@@ -916,7 +921,7 @@
 > </html>
 > ```
 
-### 一、ECMAscript语法
+### 四、ECMAscript语法
 
 #### 1.js中的函数
 
@@ -1451,7 +1456,7 @@
 > </html>
 > ```
 
-### 二、BOM
+### 五、BOM
 
 #### 1.简介
 
@@ -1751,41 +1756,7 @@
 > </html>
 > ```
 
-### 一、上堂回顾
-
-> 1.函数
->
-> ​	function
->
-> ​	匿名函数【事件】
->
-> ​	全局函数：eval    encodeURI/decodeURI  isNaN【isdigital】 parseInt【int()】
->
-> 2.全局变量和局部变量
->
-> ​	是否定义在函数中
->
-> 3.js中的对象
->
-> ​	string
->
-> ​	array
->
-> 4.BOM
->
-> ​	window
->
-> ​		对象：location   history
->
-> ​		函数：open  close
->
-> ​		事件：onload onscroll【回到顶部：document.documentElement.srcollTop和document.body.scrollTop】
->
-> ​	提示框：alert     confirm   prompt
->
-> ​	定时器：间歇性定时器【setInterval】    延时性定时器【setTimeout】
-
-### 二、DOM
+### 六、DOM
 
 #### 1.简介
 
@@ -2635,46 +2606,6 @@
 > 	</body>
 > </html>
 > ```
-
-### 一、上堂回顾
-
-> DOM	
->
-> ​	1.获取元素节点
->
-> ​		xxxById/xxxxByTagName/xxxxByName/xxxxByClassName     Nodelist
->
-> ​	2.增删改查
->
-> ​		 增：appendChild      insertBefore
->
-> ​		删：removeChild
->
-> ​		改：replaceChild
->
-> ​		查：getAttribute
->
-> ​	3.属性
->
-> ​		innerHTML
->
-> ​		parentNode
->
-> ​		firstNode   lastNode   childNodes
->
-> ​		nodeName nodeValue nodeType
->
-> ​	4.事件
->
-> ​		模式：内联模式和脚本模式
->
-> ​		event对象
->
-> ​		鼠标事件：on+事件    -------》属性，匿名函数	
-
-### 二、DOM
-
-#### 4.事件
 
 ##### 4.4拖拽事件
 
