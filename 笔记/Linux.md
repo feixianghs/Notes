@@ -240,7 +240,7 @@
 > root@yangyang-virtualmachine:/home# ls
 > ```
 
-### 一、上堂回顾
+### 上堂回顾
 
 > 1.ajax
 >
@@ -266,7 +266,7 @@
 >
 >    系统设置
 
-### 二、目录结构
+### 、目录结构
 
 #### 1.Windows文件系统
 
