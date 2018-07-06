@@ -2351,7 +2351,7 @@
 
 > a.内联模式
 >
-> ```
+> ```html
 > <!DOCTYPE html>
 > <html>
 > 	<head>
